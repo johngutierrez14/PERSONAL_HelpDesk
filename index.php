@@ -15,7 +15,7 @@
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>StartUI - Premium Bootstrap 4 Admin Dashboard Template</title>
+    <title>HelpDesk</title>
 
     <link href="img/favicon.144x144.png" rel="apple-touch-icon" type="image/png" sizes="144x144"/>
     <link

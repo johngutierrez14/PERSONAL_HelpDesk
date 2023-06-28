@@ -1,3 +1,7 @@
+<?php
+	require_once ("../../config/conexion.php");
+	if (isset($_SESSION["user_id"])){
+?>
 <!DOCTYPE html>
 <html>
 	<?php require_once('../MainHead/head.php');?>
@@ -21,7 +25,13 @@
 	<script src="../../public/js/lib/tether/tether.min.js"></script>
 	<script src="../../public/js/lib/bootstrap/bootstrap.min.js"></script>
 	<script src="../../public/js/plugins.js"></script>
+	<script src="../../public/js/app.js"></script>
+	<script type="text/javascript" src="home.js"></script>
 
-<script src="../../public/js/app.js"></script>
 </body>
 </html>
+<?php
+	} else {
+		header("Location:".Conectar::ruta()."index.php");
+	}
+?>
